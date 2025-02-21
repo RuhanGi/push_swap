@@ -6,7 +6,7 @@
 /*   By: mgoltay <mgoltay@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/15 16:09:22 by mgoltay           #+#    #+#             */
-/*   Updated: 2023/01/18 18:19:02 by mgoltay          ###   ########.fr       */
+/*   Updated: 2025/02/21 16:50:46 by mgoltay          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,10 @@ int	main(int argc, char *argv[])
 	free_vars(a, b, stack);
 }
 
-// valgrind --leak-check=full --show-leak-kinds=all ./push_swap 
+// valgrind --leak-check=full --show-leak-kinds=all push_swap 
 
-// ARG=""; ./push_swap $ARG | ./checker_Mac $ARG
+// ARG=""; push_swap $ARG | checker_Mac $ARG
 
 // vis: re
-//	@/usr/bin/python3 ./python_visualizer.py 
+//	@/usr/bin/python3 python_visualizer.py 
 // `ruby -e "puts (1..500).to_a.shuffle.join(' ')"`
